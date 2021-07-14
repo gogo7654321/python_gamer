@@ -9,7 +9,7 @@ def draw_circle(size, angle, shift):
   t.forward (shift)
   draw_circle(size + 5, angle + 1, shift + 1)
 t.bgcolor("aqua")
-t.speed(10)
+t.speed(70)
 t.pensize(40)
 t.pencolor("red")
 draw_circle(30, 0, 1)
