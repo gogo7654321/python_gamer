@@ -1,4 +1,5 @@
-while(True):
+counter = 0
+while(counter <= 1):
     print ("enter 4 numbers and i will give you the higest number")
     a = float(input())
     b = float(input())
@@ -18,3 +19,4 @@ while(True):
         higest_number = d
         
     print (higest_number,"is the higest number")
+    counter = counter + 1
